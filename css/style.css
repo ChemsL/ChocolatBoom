@@ -1,0 +1,53 @@
+body {
+  background-color: #187d80;
+  width: 80%;
+  margin: auto;
+}
+body header #logo,
+body header nav {
+  display: flex;
+  margin: auto;
+}
+body header nav {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  height: 3rem;
+  background-color: rgb(65, 28, 3);
+}
+body header a {
+  background-color: rgb(65, 28, 3);
+  padding-top: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+body header a:hover {
+  background-color: rgb(131, 105, 88);
+}
+body .container h2 {
+  background-color: rgb(65, 28, 3);
+  color: white;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+body .container section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  float: left;
+}
+body .container section img {
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+body .container aside {
+  padding-top: 3rem;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  float: right;
+  position: relative;
+}/*# sourceMappingURL=style.css.map */
